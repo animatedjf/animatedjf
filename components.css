@@ -1,12 +1,3 @@
-.navLink {
-  font-size: clamp(10px, 2vw, 13px);
-  color: var(--color1);
-  text-decoration: none;
-  margin-top: clamp(2px, 1vw, 5px);
-  margin-bottom: clamp(2px, 1vw, 5px);
-  gap: clamp(7px, 2vw, 15px);
-}
-
 .buttonCardParent {
   display: flex;
   flex-wrap: wrap;
