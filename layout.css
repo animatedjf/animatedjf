@@ -1,0 +1,36 @@
+main {
+  flex: 1;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+header {
+  background-color: #;
+  color: ;
+  text-align: center;
+  margin: auto;
+  padding: 1px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  position: static;
+  top: 0;
+  width: 100%;
+  height: clamp(100px, 2vw, 500px);
+}
+
+header p {
+  margin-top: clamp(1px, 1vw, 3px);
+}
+
+.center {
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+}
+
+.content {
+  padding-top: 100px;
+}
