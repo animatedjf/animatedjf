@@ -16,7 +16,6 @@ body {
   flex-direction: column;
   font-family: "Barlow";
   color: var(--color2);
-  overflow-x: hidden;
 }
 
 nav {
