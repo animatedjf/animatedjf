@@ -15,7 +15,7 @@ header {
   padding: 1px;
   border-bottom-left-radius: 40px;
   border-bottom-right-radius: 40px;
-  position: static;
+  position: fixed;
   top: 0;
   width: 100%;
   height: clamp(100px, 2vw, 500px);
