@@ -19,6 +19,7 @@ header {
   top: 0;
   width: 100%;
   height: clamp(100px, 2vw, 500px);
+  z-index: 999;
 }
 
 header p {
