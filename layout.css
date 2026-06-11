@@ -15,11 +15,10 @@ header {
   padding: 1px;
   border-bottom-left-radius: 40px;
   border-bottom-right-radius: 40px;
-  position: fixed;
+  position: static;
   top: 0;
   width: 100%;
-  height: clamp(100px, 2vw, 500px);
-  z-index: 999;
+  height: clamp(1px, 1vw, 3px);
 }
 
 header p {
