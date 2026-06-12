@@ -15,6 +15,7 @@
   width: 100%;
   box-sizing: mainCard;
   align-items: center;
+  border: 2px solid var #d4af37;
 }
 
 .buttonCard:hover {
