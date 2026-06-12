@@ -10,7 +10,8 @@ html, body {
 }
 
 body {
-  background: #212529;
+  background: linear-gradient(135deg, #0a0a0a 0%, #1a0033 50%, #001f3f 100%);
+  color: white;
   display: flex;
   flex-direction: column;
   font-family: "Barlow";
