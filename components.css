@@ -88,6 +88,10 @@
   transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
 
+.buttonCard, {
+  border: 2px solid var #d4af37;
+}
+
 .equalCard {
   align-items: center;
   text-align: center;
