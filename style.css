@@ -10,7 +10,7 @@ html, body {
 }
 
 body {
-  background: linear-gradient(135deg, #0a0a0a 0%, #1a0033 50%, #001f3f 100%);
+  background: radial-gradient(circle at top left, rgba(168, 85, 247, 0.22), transparent 40%), radial-gradient(circle at bottom right, rgba(212, 175, 55, 0.18), transparent 40%), #040404;
   color: white;
   display: flex;
   flex-direction: column;
