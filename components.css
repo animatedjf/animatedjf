@@ -15,7 +15,6 @@
   width: 100%;
   box-sizing: mainCard;
   align-items: center;
-  border: 2px solid var #d4af37;
 }
 
 .buttonCard:hover {
@@ -77,8 +76,19 @@
 
   padding: clamp(15px, 4vw, 40px);
 }
+.buttonCard {
+   display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  background: radial-gradient(circle at top left, rgba(168, 85, 247, 0.22), transparent 40%), radial-gradient(circle at bottom right, rgba(212, 175, 55, 0.18), transparent 40%), #040404;
+  border-radius: 10px;
+  border: 2px solid var #d4af37;
+  color: var(--color2);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
 
-.mainCard,.buttonCard,.equalCard {
+
+.mainCard, .equalCard {
   display: flex;
   flex-direction: column;
   font-weight: bold;
